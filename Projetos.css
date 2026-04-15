@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(135deg, #1a1a1a, #2c2c2c, #ff7b00);
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h1 {
+  color: #ff7d04;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ff8411;
+  font-size: 33px;
+}
+
+h3,
+p {
+  color: #ff8411;
+  font-size: 33px;
+}
+
+nav a {
+  color: white;
+  margin-left: 80px;
+  margin-top: 50px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ff7d04;
+}
+.foto,
+.projeto2,
+.prj3 {
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.foto img {
+  width: 200px;
+  height: auto;
+}
+
+.projeto2 img,
+.prj3 img {
+  width: 400px;
+
+  height: 300px;
+}
